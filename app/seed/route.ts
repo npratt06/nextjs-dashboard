@@ -1,3 +1,9 @@
+// // //
+// KEEPING THIS FILE FOR FUTURE REFERENCE FOR LEARNING PURPOSES :)
+// // //
+
+// ---------------------------------------------------------------
+
 // import bcrypt from 'bcrypt';
 // import { db } from '@vercel/postgres';
 // import { invoices, customers, revenue, users } from '../lib/placeholder-data';
@@ -104,7 +110,7 @@
 export async function GET() {
   return Response.json({
     message:
-      'Uncomment this file and remove this line. You can delete this file when you are finished.',
+      'This file has already been utilized to seed the DB. Keepin it around for funsies.',
   });
   // try {
   //   await client.sql`BEGIN`;
